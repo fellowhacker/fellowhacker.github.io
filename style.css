@@ -128,11 +128,9 @@ body {
 	margin: 0 auto;
 	display: block;
         cursor: pointer;
-}
-.body .col1 img:hover {
         border: 10px solid green;
 }
-.body .col1 h1 {
+ .body .col1 h1 {
 	text-align: center;
 	color: green;
 	font-family: abcd;
@@ -141,7 +139,8 @@ body {
 	text-align: center;
 	font-family: abc;
 	margin-left: 0%;
-        font-size: 150%;  
+    font-size: 150%; 
+    margin-top: -2%; 
 }
 @media screen and (max-device-width: 400px) {
         .body .col1 {
@@ -149,9 +148,10 @@ body {
         }
         .body .col1 img {
                 width: 70%;
+                border: 25px solid green;
         } 
         .body .col1 h1 {
-                font-size: 900%; 
+                font-size: 600%; 
         }
         .body .col1 p {
                 font-size: 230%; 
