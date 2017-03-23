@@ -168,5 +168,50 @@ body {
 	border: 1px solid black;
 }
 .form {
-	
+	margin: 0 auto;
+}
+.form h1{
+	color: blue;
+	text-align: center;
+}
+.form a  i{
+	font-size: 500%;
+	color: black;
+	padding: 2.5%;
+	 animation-duration: 0s;
+
+}
+.form a {
+	padding: ;
+}
+.form i:hover {
+	 font-size: 440%;
+}
+.github i:hover {
+	color: black;
+	border: 2px solid #000;
+	border-radius: 50%;
+}
+.facebook i:hover {
+	color:  #3b5998;
+	border: 2px solid #3b5998;
+	border-radius: 50%;
+}
+.quora i:hover {
+	color:  #a82400;
+	border: 2px solid #a82400;
+	border-radius: 50%;
+}
+.twitter i:hover {
+	color:  #00aced;
+	border: 2px solid #00aced;
+	border-radius: 50%;
+}
+.instagram i:hover {
+	color: #8a3ab9;
+	border: 2px solid #8a3ab9;
+	border-radius: 50%;
+}
+.link {
+	margin-left: 28%;
 }
