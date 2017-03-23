@@ -160,3 +160,13 @@ body {
 
 
 /*     blog     */
+
+/*   contact     */
+.contactform {
+	width: 72%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.form {
+	
+}
