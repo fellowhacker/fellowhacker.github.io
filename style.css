@@ -406,3 +406,13 @@ width:110px;
 	color:#ffffff;
 	color:rgba(0, 0, 0, 0.4);
 }
+
+@media screen and (max-device-width:  400px) {
+	.skillbar, .skillbar-bar {
+		height: 55px;
+	}
+	.skillbar-title span {
+		height:55px;
+		line-height:55px;
+	}
+}
