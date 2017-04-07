@@ -409,10 +409,10 @@ width:110px;
 
 @media screen and (max-device-width:  400px) {
 	.skillbar, .skillbar-bar {
-		height: 55px;
+		height: 75px;
 	}
 	.skillbar-title span {
-		height:55px;
-		line-height:55px;
+		height:75px;
+		line-height:75px;
 	}
 }
