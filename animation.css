@@ -178,3 +178,42 @@
   -o-animation-name: bounceInDowna;
   animation-name: bounceInDowna;
 }
+
+@-webkit-keyframes up {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+ 
+.animation
+  {
+  
+  -webkit-transform: translate(0px,-25px);
+   -moz-transform: translate(0px,-25px);
+   -o-transform: translate(0px,-25px);
+   -ms-transform: translate(0px,-25px);
+   transform: translate(0px-25px);
+   -webkit-transition-delay: 0s;
+   -moz-transition-delay: 0s;
+   -o-transition-delay: 0s;
+   -ms-transition-delay: 0s;
+   transition:1s;
+  }
+  .me {
+    border: 10px solid red;
+  }
