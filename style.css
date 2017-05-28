@@ -158,9 +158,9 @@ body {
     font-size: 150%; 
     margin-top: -2%; 
 }
-@media screen and (max-device-width: 500px) {
+@media screen and (max-device-width: 600px) {
         .body .col1 {
-                width: 80%;
+                width: 90%;
         }
         .body .col1 img {
                 width: 70%;
@@ -176,6 +176,40 @@ body {
 
 
 /*     blog     */
+
+.body_blog {
+	width: 66%;
+	margin: 0 auto;
+    font-size: 130%;
+    box-shadow: 0 0  20px grey;
+    padding: 0% 2% 2% 2%;
+    overflow: auto;
+    border-radius: 50px 50px 0 0;
+}
+
+.border_blue {
+	background-color: blue;
+	width: 107.3%;
+	margin-left: -4%;
+	margin-top: -2.5%;
+	padding: 1% 0%;
+}
+
+@media screen and (max-device-width: 400px) {
+        .body_blog .post1 h1 {
+                font-size: 300%;
+         }
+        .body_blog {
+                width: 90%;
+         }
+        .body_blog .post1  p {
+                font-size: 150%;
+        }
+        .continue a {
+                font-size: 220%;
+        }
+}
+
 
 /*   contact     */
 .contactform {
@@ -419,3 +453,5 @@ width:110px;
 		line-height:75px;
 	}
 }
+
+

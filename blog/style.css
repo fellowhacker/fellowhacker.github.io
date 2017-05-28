@@ -1,10 +1,10 @@
 .body_blog {
 	width: 66%;
 	margin: 0 auto;
-        font-size: 130%;
-        box-shadow: 0 0  20px grey;
-        padding: 2%;
-        overflow: auto;
+    font-size: 130%;
+    box-shadow: 0 0  20px grey;
+    padding: 2%;
+    overflow: auto;
 }
  
 @media screen and (max-device-width: 400px) {
