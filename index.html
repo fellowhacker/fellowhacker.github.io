@@ -1,130 +1,434 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-	<title>HOME</title>
-	<link rel="icon" type="image/png" href="fellowhacker.png" sizes="64x64" /> 
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="animation.css">
-		 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-		<script src="style.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+	<title>Fellowhacker's Blog</title>
+	<link rel="icon" type="image/png" href="img/fellowhacker.png" sizes="64x64" />
+ 
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/templatemo_style.css">
 </head>
-<body>
-	<div class="header">
-
-		<div class="logo">
-			<div class="animate bounce">
-				<a href="index.html"><img id ="logo" src="me.jpg"></a>
+<body style="width: 100%">
+	<header class="site-header container animated fadeInDown">
+		<div class="header-wrapper">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="site-branding">
+						<a href="#"><h1 class="text-center">Fellowhacker's Blog</h1></a>
+					</div>
+				</div>
+				<a href="#" class="toggle-nav hidden-md hidden-lg">
+					<i class="fa fa-bars"></i>
+				</a>
+				<div class="col-md-6">
+					<nav id="nav" class="main-navigation hidden-xs hidden-sm">
+						<ul class="main-menu">
+							<li><a class="show-1 active homebutton" href="#">Home</a></li>
+							<li><a class="show-2 aboutbutton" href="#">About Me</a></li>
+							<li><a class="show-3 projectbutton" href="#">Projects</a></li>
+							<li><a class="show-4 blogbutton" href="#">Blog</a></li>
+							<li><a class="show-5 contactbutton" href="#">Contact</a></li>
+						</ul>
+					</nav>
+					<nav class="main-navigation menu-responsive hidden-md hidden-lg">
+						<ul class="main-menu">
+							<li><a class="show-1 active homebutton" href="#">Home</a></li>
+							<li><a class="show-2 aboutbutton" href="#">About Me</a></li>
+							<li><a class="show-3 projectbutton" href="#">Projects</a></li>
+							<li><a class="show-4 blogbutton" href="#">Blog</a></li>
+							<li><a class="show-5 contactbutton" href="#">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
-			<div class="animate1 bounce1"> <b><p>Fellowhacker's Blog </p></b></div>
+		</div>
+	</header>
+
+	
+	<div id="menu-container">
+		<div id="menu-1" class="homepage home-section container">
+			<div class="home-intro text-center">
+				<!--<h2 class="welcome-title animated fadeInLeft">I ion</h2>-->
+				<img src="img/me.jpg" width="120px" class="welcome-title animated fadeInLeft"><br>
+				<p class="animated fadeInRight"> Hyy I'm <span class="blue"> Naveen Manikanta Kodigudla </span>an open source enthusiast from Visakhapatnam, India. I have a passion for web design and love to create for web and mobile devices.I enjoy contributing to open source and explore new algorithms. I love playing Volleyball, travelling and reading novels(CRIME FICTION).</p>
+				<ul class="list-icons animated fadeInUp">
+
+					<li><img src="img/nodejs.png" width="70px"></li>
+					<li><img src="img/python.png" width="140px"></li>
+					<li><img src="img/js.png" width="80px"></li>
+					<li><img src="img/php.png" width="55px"></li>
+					<li><img src="img/html5.png" width="80px"></li>
+					<li><img src="img/css3.png" width="55px"></li>
+					
+				</ul>
+			</div>
+			<div class="home-projects">
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<div class="project-title animated fadeInUp">
+							<h2>Latest Projects</h2>
+							<p>Here is the list of some of my projects. </p>
+							<a href="#" class="pink-button show-3 projectbutton">Watch more here</a>
+						</div>
+					</div>
+					<div class="project-home-holder col-md-6 col-sm-12">
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="project-item one animated fadeInRight">
+									<img src="img/1.jpg" alt="">
+									<div class="overlay">
+										<h4><a href="#">Project One</a></h4>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="project-item two animated fadeInRight">
+									<img src="img/2.jpg" alt="">
+									<div class="overlay">
+										<h4><a href="#">Project Two</a></h4>
+									</div>
+								</div>
+							</div>
+						<!--	<div class="col-md-6 col-sm-6">
+								<div class="project-item three animated fadeInRight">
+									<img src="img/3.jpg" alt="">
+									<div class="overlay">
+										<h4><a href="#">Project Three</a></h4>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="project-item four animated fadeInRight">
+									<img src="img/4.jpg" alt="">
+									<div class="overlay">
+										<h4><a href="#">Project Four</a></h4>
+									</div>
+								</div>
+							</div>-->
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
-		<div class="nav animate1 bounce1">
-
-			<ul>
-			 	<li><a href="index.html" style="color:blue;background-color: white;border: 1px solid blue;">Home</a></li>
-			 	<li><a href="blog/">Blog</a></li>
-			 	<li><a href="#">Resume</a></li>
-			 	<li><a href="contact/">Contact</a></li>	
-			</ul>
- 
-	        </div>
-</div>
- <hr>
- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/gear2.svg" alt id="leftgear">
-<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/gear2.svg" alt id="rightgear">
- 	<div class="body">
-
- 		<div class="col1" style=" padding-top: 4%; ">
- 			<div class="animate bounce" id="me" style="margin-top: 0%;">
-				 <img id ="logo" src="webd1.png"  class="mypic" > 
-			</div>			
- 			<h1>Hi</h1>	
- 			
-			<p>I'm <b>Naveen Manikanta Kodigudla </b> an open source enthusiast from Visakhapatnam, India. I have a passion for web design and love to create for web and mobile devices.I enjoy contributing to open source and explore new algorithms.  I love playing Volleyball, travelling and reading novels(CRIME FICTION) </p>
- 		<hr></div>
-
- 		<div class="col1" style=" padding-top: 4%;">
- 			<div class="animate bounce">
-				 <img id ="logo" src="edu-min.jpg" class="logo"> 
- 			<h1>Education</h1>
- 			</div>
- 			<p>I have completed my 10th at Little Flowers E.M High School securing CGPA of 9.5/10 and 97.20% in my Intermediate at Narayana Junior College. I'm  doing my B.Tech 2nd year in Electronics And Communication Engineering at IIIT,ALLAHABAD. </p>
- 		<hr></div>
-
-
- 		<div class="col1" style=" padding-top: 4%;">
- 			<div class="animat bounce">
-				 <img id ="logo" src="skills1.jpg"> 
+		<div id="menu-2" class="content about-section container">
+			<div class="our-story">
+				 
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="inner-story animated fadeInRight text-center">
+							<h2 class="blue">ABOUT ME</h2>
+							<p> Hyy I'm <span class="blue"> Naveen Manikanta Kodigudla </span>an open source enthusiast from Visakhapatnam, India. I have a passion for web design and love to create for web and mobile devices.I enjoy contributing to open source and explore new algorithms. I love playing Volleyball, travelling and reading novels(CRIME FICTION).</p>
+						</div>
+					</div>
+				</div>
 			</div>
- 			<h1>Skills</h1>
- 			<p>  </p>
- 			<div class="skillbar clearfix " data-percent="90%">
-				<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
-				<div class="skillbar-bar" style="background: #e67e22;"></div>
-				<div class="skill-bar-percent">90%</div>
-			</div> <!-- End Skill Bar -->
+			<div class="our-offers">
+				<!--<div class="offer-bg animated fadeIn"></div>
+				<div class="offer-header">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center">
+							<div class="offer-title animated fadeInDown">
+								<h2>OTHERS</h2>
+							</div>
+						</div>
+					</div>
+				</div>-->
+				<div class="row">
+					<div class="offer-holder">
+						<div class="col-md-6">
+							<div class="offer-item offer-1 animated fadeInLeft">
+								<div class="offer-content text-center">
+									<h4 class="blue">EDUCATION</h4>	
+									<p>I'm doing my B.Tech 2nd year in Electronics And Communication Engineering at <span class="blue"> IIIT,ALLAHABAD. </span>I have completed my 10th at Little Flowers E.M High School securing CGPA of 9.5/10 and 97.20% in my Intermediate at Narayana Junior College.</p>								 
+									<span class="offer-left"><i></i></span>
+									<span class="offer-right"><i></i></span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="offer-item offer-2 animated fadeInRight">
+								<div class="offer-content text-center">
+									<h4 class="blue">SKILLS</h4>
+									<div class="skillbar clearfix " data-percent="90%">
+										<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+										<div class="skillbar-bar" style="background: #e67e22;"></div>
+										<div class="skill-bar-percent">90%</div>
+									</div> <!-- End Skill Bar -->
 
-			<div class="skillbar clearfix " data-percent="85%">
-				<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
-				<div class="skillbar-bar" style="background: #3498db;"></div>
-				<div class="skill-bar-percent"><b>85%</b></div>
-			</div> <!-- End Skill Bar -->
+									<div class="skillbar clearfix " data-percent="85%">
+										<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+										<div class="skillbar-bar" style="background: #3498db;"></div>
+										<div class="skill-bar-percent"><b>85%</b></div>
+									</div> <!-- End Skill Bar -->
 
-			<div class="skillbar clearfix " data-percent="80%">
-				<div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
-				<div class="skillbar-bar" style="background: #2c3e50;"></div>
-				<div class="skill-bar-percent"><b>80%</b></div>
-			</div> <!-- End Skill Bar -->
+									<div class="skillbar clearfix " data-percent="80%">
+										<div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
+										<div class="skillbar-bar" style="background: #2c3e50;"></div>
+										<div class="skill-bar-percent"><b>80%</b></div>
+									</div> <!-- End Skill Bar -->
 
-			<div class="skillbar clearfix " data-percent="70%">
-				<div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
-				<div class="skillbar-bar" style="background: #5a68a5;"></div>
-				<div class="skill-bar-percent">70%</div>
-			</div> <!-- End Skill Bar -->
+									<div class="skillbar clearfix " data-percent="70%">
+										<div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
+										<div class="skillbar-bar" style="background: #5a68a5;"></div>
+										<div class="skill-bar-percent">70%</div>
+									</div> <!-- End Skill Bar -->
 
-			<div class="skillbar clearfix " data-percent="75%">
-				<div class="skillbar-title" style="background: #333333;"><span>Javasript</span></div>
-				<div class="skillbar-bar" style="background: #525252;"></div>
-				<div class="skill-bar-percent">75%</div>
-			</div> <!-- End Skill Bar -->
+									<div class="skillbar clearfix " data-percent="75%">
+										<div class="skillbar-title" style="background: #333333;"><span>Javasript</span></div>
+										<div class="skillbar-bar" style="background: #525252;"></div>
+										<div class="skill-bar-percent">75%</div>
+									</div> <!-- End Skill Bar -->
 
-			<div class="skillbar clearfix " data-percent="60%">
-				<div class="skillbar-title" style="background: #27ae60;"><span>NodeJs</span></div>
-				<div class="skillbar-bar" style="background: #2ecc71;"></div>
-				<div class="skill-bar-percent"><b>60%</b></div>
-			</div> <!-- End Skill Bar -->
+									<div class="skillbar clearfix " data-percent="60%">
+										<div class="skillbar-title" style="background: #27ae60;"><span>NodeJs</span></div>
+										<div class="skillbar-bar" style="background: #2ecc71;"></div>
+										<div class="skill-bar-percent"><b>60%</b></div>
+									</div> <!-- End Skill Bar -->
 
-			<div class="skillbar clearfix " data-percent="70%">
-				<div class="skillbar-title" style="background: #124e8c;"><span>Photoshop</span></div>
-				<div class="skillbar-bar" style="background: #4288d0;"></div>
-				<div class="skill-bar-percent">70%</div>
-			</div> <!-- End Skill Bar -->
+									<div class="skillbar clearfix " data-percent="70%">
+										<div class="skillbar-title" style="background: #124e8c;"><span>Photoshop</span></div>
+										<div class="skillbar-bar" style="background: #4288d0;"></div>
+										<div class="skill-bar-percent">70%</div>
+									</div> <!-- End Skill Bar -->
 
- 		<hr></div>
+									<span class="offer-left"><i></i></span>
+									<span class="offer-right"><i></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
- 	</div>
- <script>
- 	$(".col1").hover(function(){
+		<div id="menu-3" class="content project-section container">
+			<div class="projects-header">
+				<h2 class="animated fadeInRight">My projects</h2>
+				<p class="animated fadeInLeft">Here is the list of my projects.</p>
+			</div>
+			<div class="row blog-posts">
+				<div class="col-md-4 col-sm-12">
+					<div class="blog-item post-1 animated zoomIn">
+						<div class="blog-bg blog-pink"></div>
+						<div class="blog-content">
+							<h3><a href="#"><span class="blue"> Open Source </span></a></h3>
+							<span class="solid-line"></span>
+							<p>open source</p>
+							<a href="#" class="post-button">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="blog-item post-2 animated zoomIn">
+						<div class="blog-bg blog-blue"></div>
+						<div class="blog-content">
+							<h3><a href=""><span class="blue"> Open Source </span></a></h3>
+							<span class="solid-line"></span>
+							<p>get yourself creative</p>
+							<a href="#" class="post-button">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="blog-item post-3 animated zoomIn">
+						<div class="blog-bg blog-green"></div>
+						<div class="blog-content">
+							<h3><a href="#"><span class="blue"> Open Source </span></a></h3>
+							<span class="solid-line"></span>
+							<p>open source.</p>
+							<a href="#" class="post-button">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--<div class="projects-holder">
+				<div class="row">
+					<div class="col-md-4 col-sm-6 p-1 animated umScaleIn">
+						<div class="project-item">
+							<img src="img/1.jpg" alt="">
+							<div class="overlay">
+								<h4><a href="#">Project One</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 p-2 animated umScaleIn">
+						<div class="project-item">
+							<img src="img/2.jpg" alt="">
+							<div class="overlay">
+								<h4><a href="#">Project Two</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 p-3 animated umScaleIn">
+						<div class="project-item">
+							<img src="img/3.jpg" alt="">
+							<div class="overlay">
+								<h4><a href="#">Project Three</a></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 p-4 animated umScaleIn">
+						<div class="project-item animated umScaleIn">
+							<img src="img/4.jpg" alt="">
+							<div class="overlay">
+								<h4><a href="#">Project Four</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="project-item p-5 animated umScaleIn">
+							<img src="img/5.jpg" alt="">
+							<div class="overlay">
+								<h4><a href="#">Project Five</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="project-item p-6 animated umScaleIn">
+							<img src="img/6.jpg" alt="">
+							<div class="overlay">
+								<h4><a href="#">Project Six</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="project-item p-7 animated umScaleIn">
+							<img src="img/7.jpg" alt="">
+							<div class="overlay">
+								<h4><a href="#">Project Seven</a></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>  -->
+		</div>
 
-  		  $(this).addClass('animation');
-    },function(){
+		<div id="menu-4" class="content blog-section container">
+			<div class="blog-header text-center">
+				<h2 class="animated fadeInRight">Blog </h2>
+				<p class="animated fadeInLeft"> Its my blog</p>
+				<a href="#" class="blog-button animated fadeInUp">continue journal</a>
+			</div>
+			<div class="row blog-posts">
+				<div class="col-md-4 col-sm-12">
+					<div class="blog-item post-1 animated zoomIn">
+						<div class="blog-bg blog-pink"></div>
+						<div class="blog-content">
+							<h3><a href="#">Web Design</a></h3>
+							<span class="solid-line"></span>
+							<p>Etiam aliquam sem vel velit tempus, quis porttitor nunc rutrum. Ut a tempus arcu. Sed velit felis, pretium a lacus in, cursus scelerisque ex.</p>
+							<a href="#" class="post-button">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="blog-item post-2 animated zoomIn">
+						<div class="blog-bg blog-blue"></div>
+						<div class="blog-content">
+							<h3><a href="#">Creativity</a></h3>
+							<span class="solid-line"></span>
+							<p>Etiam aliquam sem vel velit tempus, quis porttitor nunc rutrum. Ut a tempus arcu. Sed velit felis, pretium a lacus in, cursus scelerisque ex.</p>
+							<a href="#" class="post-button">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="blog-item post-3 animated zoomIn">
+						<div class="blog-bg blog-green"></div>
+						<div class="blog-content">
+							<h3><a href="#"><span class="blue">template</span>mo</a></h3>
+							<span class="solid-line"></span>
+							<p>Etiam aliquam sem vel velit tempus, quis porttitor nunc rutrum. Ut a tempus arcu. Sed velit felis, pretium a lacus in, cursus scelerisque ex.</p>
+							<a href="#" class="post-button">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-   		 $(this).removeClass('animation');
-	});
+		<div id="menu-5" class="content contact-section container">
+			<div class="contact-header text-center">
+				<h2 class="animated fadeInLeft">Get in Touch</h2>
+				<p class="animated fadeInRight">Feel free to talk to us about anything.</p>
+				<ul class="contact-social animated fadeInUp">
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fa fa-share-alt"></i></a></li>
+				</ul>
+			</div>
+			<div class="contact-holder">
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+			            <div class="googlemap-wrapper animated fadeInLeft">
+                            <div id="map_canvas" class="map-canvas"></div>
+                        </div>
+					</div>
+					<div class="col-md-6 col-sm-12">
+						<div class="contact-form animated fadeInUp">
+							<h4>Send us a Message</h4>
+							<div class="row">
+								<fieldset class="col-md-6">
+									<input type="text" name="name" placeholder="Your name">
+								</fieldset>
+								<fieldset class="col-md-6">
+									<input type="email" name="email" placeholder="Your name">
+								</fieldset>
+								<fieldset class="col-md-12">
+									<input type="text" name="subject" placeholder="Subject">
+								</fieldset>
+								<fieldset class="col-md-12">
+									<textarea name="message" id="message" cols="30" rows="10" placeholder="Describe your Project"></textarea>
+								</fieldset>
+								<fieldset class="col-md-12">
+									<a href="#" class="message-button">Submit Message</a>
+								</fieldset>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
- 	$(".mypic").hover(function(){
- 			// $('#logo').hide();
- 			 $('#me img').remove();
- 			  $('#me').append('<img src="me.jpg"  >');
-    		 
-    }, function(){
 
-    		$('#me img').remove();
- 			$('#me').append('<img src="webd1.png"  >');
-    		 
-	});
- </script>
+	<footer class="site-footer container text-center">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="main-footer">
+					<ul class="social">
+						<li><a href="https://github.com/fellowhacker" target="blank"><i class="fa fa-github circle" style="font-size:24px"></i></a></li>
+						<li><a href="https://www.quora.com/profile/NAVEEN-MANIKANTA-KODIGUDLA-1" target="blank"><i class="fa fa-quora" style="font-size:24px"></i></a></li>
+						<li><a href="https://stackoverflow.com/users/7447224/fellowhacker" target="blank"><i class="fa fa-stack-overflow circle" style="font-size:24px"></i></a></li>
+						<li><a href="https://www.facebook.com/naveenmanikanta.kodigudla" target="blank"><i class="fa fa-facebook circle" style="font-size:24px"></i></a></li>
+						<li><a href="https://twitter.com/fellow_hacker" target="blank"><i class="fa fa-twitter circle" style="font-size:24px"></i></a></li>
+						<li><a href="https://www.instagram.com/nawin6637/" target="blank"><i class="fa fa-instagram circle" style="font-size:24px"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 copyright">
+				<p>Developed by <a href="https://github.com/fellowhacker" class="blue">Naveen Manikanta Kodigudla</a></p>
+			</div>
+		</div>
+	</footer>
+	<!-- templatemo 421 raleway -->
+	<span class="border-top"></span>
+	<span class="border-left"></span>
+	<span class="border-right"></span>
+	<span class="border-bottom"></span>
+	<span class="shape-1"></span>
+	<span class="shape-2"></span>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/templatemo_custom.js"></script>
 </body>
 </html>
