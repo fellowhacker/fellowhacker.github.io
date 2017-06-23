@@ -725,3 +725,28 @@ width:110px;
     color:#ffffff;
     color:rgba(0, 0, 0, 0.4);
 }
+
+@media screen and (max-width: 373px) {
+
+  #logoname {
+    font-size: 150%;
+
+  }
+
+}
+
+.prow {
+
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+@media screen and (max-width: 460px) {
+ 
+  .prow {
+    width: 86%;
+    
+  }
+
+}
