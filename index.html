@@ -1,431 +1,404 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
+
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
 	<title>Fellowhacker's Blog</title>
-	<link rel="icon" type="image/png" href="img/fellowhacker.png" sizes="64x64" />
+  <link rel="icon" type="image/png" href="images/fellowhacker.png" sizes="64x64" />
  
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/simple-line-icons.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/templatemo_style.css">
-</head>
-<body style="width: 100%">
-	<header class="site-header container animated fadeInDown">
-		<div class="header-wrapper">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="site-branding">
-						<a href="#"><h1 class="text-center">Fellowhacker's Blog</h1></a>
-					</div>
-				</div>
-				<a href="#" class="toggle-nav hidden-md hidden-lg">
-					<i class="fa fa-bars"></i>
-				</a>
-				<div class="col-md-6">
-					<nav id="nav" class="main-navigation hidden-xs hidden-sm">
-						<ul class="main-menu">
-							<li><a class="show-1 active homebutton" href="#">Home</a></li>
-							<li><a class="show-2 aboutbutton" href="#">About Me</a></li>
-							<li><a class="show-3 projectbutton" href="#">Projects</a></li>
-							<li><a class="show-4 blogbutton" href="#">Blog</a></li>
-							<li><a class="show-5 contactbutton" href="#">Contact</a></li>
-						</ul>
-					</nav>
-					<nav class="main-navigation menu-responsive hidden-md hidden-lg">
-						<ul class="main-menu">
-							<li><a class="show-1 active homebutton" href="#">Home</a></li>
-							<li><a class="show-2 aboutbutton" href="#">About Me</a></li>
-							<li><a class="show-3 projectbutton" href="#">Projects</a></li>
-							<li><a class="show-4 blogbutton" href="#">Blog</a></li>
-							<li><a class="show-5 contactbutton" href="#">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</header>
-
+  	<link rel="stylesheet" href="css/component.css">
 	
-	<div id="menu-container">
-		<div id="menu-1" class="homepage home-section container">
-			<div class="home-intro text-center">
-				<!--<h2 class="welcome-title animated fadeInLeft">I ion</h2>-->
-				<img src="img/me.jpg" width="120px" class="welcome-title animated fadeInLeft"><br>
-				<p class="animated fadeInRight"> Hyy I'm <span class="blue"> Naveen Manikanta Kodigudla </span>an open source enthusiast from Visakhapatnam, India. I have a passion for web design and love to create for web and mobile devices.I enjoy contributing to open source and explore new algorithms. I love playing Volleyball, travelling and reading novels(CRIME FICTION).</p>
-				<ul class="list-icons animated fadeInUp">
+    <link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/vegas.min.css">
+	<link rel="stylesheet" href="css/style.css">
 
-					<li><img src="img/nodejs.png" width="70px"></li>
-					<li><img src="img/python.png" width="140px"></li>
-					<li><img src="img/js.png" width="80px"></li>
-					<li><img src="img/php.png" width="55px"></li>
-					<li><img src="img/html5.png" width="80px"></li>
-					<li><img src="img/css3.png" width="55px"></li>
-					
-				</ul>
+	<!-- Google web font  -->
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
+</head>
+<body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+
+
+<!-- Preloader section -->
+
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-pulse"></div>
+</div>
+
+
+<!-- Navigation section  -->
+
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+        </button>
+        <a href="#top" class="navbar-brand smoothScroll">Fellowhacker's Blog</a>
+      </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#top" class="smoothScroll"><span>Home</span></a></li>
+            <li><a href="#about" class="smoothScroll"><span>About Me</span></a></li>
+            <li><a href="#projects" class="smoothScroll"><span>Projects</span></a></li>
+            <li><a href="#blog" class="smoothScroll"><span>Blog</span></a></li>
+            <li><a href="#contact" class="smoothScroll"><span>Contact</span></a></li>
+          </ul>
+       </div>
+
+    </div>
+  </div>
+
+
+<!-- Home section -->
+
+<section id="home">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-offset-1 col-md-10 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+
+        <h1 class="wow fadeInUp" data-wow-delay="0.3s">Naveen Manikanta Kodigudla</h1>
+        <p class="wow fadeInUp" data-wow-delay="0.7s">Hyy I'm <span class="blue" style="color:skyblue"> Naveen Manikanta Kodigudla </span>an open source enthusiast from Visakhapatnam, India. I have a passion for web design and love to create for web and mobile devices.I enjoy contributing to open source and explore new algorithms.</p>
+        <a href="#about" class="smoothScroll btn btn-success btn-lg wow fadeInUp" data-wow-delay="0.9s">More about me</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- About section -->
+
+<section id="about">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="about-thumb">
+          <h1>About me</h1>
+            <p> Hyy I'm <span class="blue"> Naveen Manikanta Kodigudla </span>an open source enthusiast from Visakhapatnam, India. I have a passion for web design and love to create for web and mobile devices.I enjoy contributing to open source and explore new algorithms. I love playing with API's you can see one of my projects made using Youtube v3's API. </p>
+          <h1>Education</h1>
+            <p>I'm doing my B.Tech 2nd year in Electronics And Communication Engineering at <span class="blue"> IIIT,ALLAHABAD. I love playing Volleyball, travelling and reading novels(CRIME FICTION).</p>
+          <h1>Skills</h1>
+            <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                    <div class="skill-bar-percent">90%</div>
+                  </div> <!-- End Skill Bar -->
+
+                  <div class="skillbar clearfix " data-percent="85%">
+                    <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+                    <div class="skillbar-bar" style="background: #3498db;"></div>
+                    <div class="skill-bar-percent"><b>85%</b></div>
+                  </div> <!-- End Skill Bar -->
+
+                  <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
+                    <div class="skillbar-bar" style="background: #2c3e50;"></div>
+                    <div class="skill-bar-percent"><b>80%</b></div>
+                  </div> <!-- End Skill Bar -->
+
+                  <div class="skillbar clearfix " data-percent="70%">
+                    <div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
+                    <div class="skillbar-bar" style="background: #5a68a5;"></div>
+                    <div class="skill-bar-percent">70%</div>
+                  </div> <!-- End Skill Bar -->
+
+                  <div class="skillbar clearfix " data-percent="75%">
+                    <div class="skillbar-title" style="background: #333333;"><span>Javasript</span></div>
+                    <div class="skillbar-bar" style="background: #525252;"></div>
+                    <div class="skill-bar-percent">75%</div>
+                  </div> <!-- End Skill Bar -->
+
+                  <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title" style="background: #27ae60;"><span>NodeJs</span></div>
+                    <div class="skillbar-bar" style="background: #2ecc71;"></div>
+                    <div class="skill-bar-percent"><b>60%</b></div>
+                  </div> <!-- End Skill Bar -->
+
+                  <div class="skillbar clearfix " data-percent="70%">
+                    <div class="skillbar-title" style="background: #124e8c;"><span>Photoshop</span></div>
+                    <div class="skillbar-bar" style="background: #4288d0;"></div>
+                    <div class="skill-bar-percent">70%</div>
+                  </div> <!-- End Skill Bar -->
+
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 wow fadeInUp about-img" data-wow-delay="0.2s" style="margin-top: 100px;">
+        <img src="images/me.jpg"  class="img-responsive img-circle" alt="About">
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div id="projects">
+
+        <div class="col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="section-title text-center">
+            <h1>My Projects</h1>
+            <h3>List of projects</h3>
+          </div>
+        </div>
+
+        <!-- team carousel -->
+        <div id="team-carousel" class="owl-carousel">
+
+        <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+          <div class="team-thumb">
+            <div class="image-holder">
+              <img src="images/blog.svg" class=" img-circle" width="150px" height="150px">
+            </div>
+            <h2 class="heading">My Personal Website</h2>
+            <p class="description"> Its my personal website you can find every stuff about me here.<br><button style="border: none;color:black;background-color: white;padding:5px 20px;">More</button></p>
+
+          </div>
+        </div>
+
+        <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+          <div class="team-thumb">
+            <div class="image-holder">
+              <img src="images/you.png" class="" width="150px" height="150px">
+            </div>
+            <h2 class="heading">Youtube Search</h2>
+            <p class="description">This uses YouTube Data API v3's search functionality to search for youtube videos.<br><button style="border: none;color:black;background-color: white;padding:5px 20px;">More</button></p>
+          </div>
+        </div>
+
+      <!--  <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+          <div class="team-thumb">
+            <div class="image-holder">
+              <img src="images/team-img3.jpg" class="img-responsive img-circle" alt="Linda">
+            </div>
+            <h2 class="heading"> </h2>
+            <p class="description"> </p>
+          </div>
+        </div>
+
+        <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+          <div class="team-thumb">
+            <div class="image-holder">
+              <img src="images/team-img4.jpg" class="img-responsive img-circle" alt="Sandy">
+            </div>
+            <h2 class="heading"> </h2>
+            <p class="description"> </p>
+          </div>
+        </div>
+
+        <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+          <div class="team-thumb">
+            <div class="image-holder">
+              <img src="images/team-img5.jpg" class="img-responsive img-circle" alt="Lukia">
+            </div>
+            <h2 class="heading"> </h2>
+            <p class="description"> </p>
+          </div>
+        </div>
+
+        <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+          <div class="team-thumb">
+            <div class="image-holder">
+              <img src="images/team-img6.jpg" class="img-responsive img-circle" alt="George">
+            </div>
+            <h2 class="heading"> </h2>
+            <p class="description"> </p>
+          </div>
+        </div>
+
+        <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+          <div class="team-thumb">
+            <div class="image-holder">
+              <img src="images/team-img7.jpg" class="img-responsive img-circle" alt="Day">
+            </div>
+            <h2 class="heading"> </h2>
+            <p class="description"> </p>
+          </div>
+        </div>
+
+        <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+          <div class="team-thumb">
+            <div class="image-holder">
+              <img src="images/team-img8.jpg" class="img-responsive img-circle" alt="Lynn">
+            </div>
+            <h2 class="heading"> </h2>
+            <p class="description"> </p>
+          </div>
+        </div>  -->
+
+        </div>
+        <!-- end team carousel -->
+</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Gallery section -->
+
+<section id="blog">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-offset-2 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="section-title">
+          <h1 class="text-center">BLOG</h1>
+          <p class="text-center">My Blog</p>
+        </div>
+      </div>
+
+      <ul class="grid cs-style-4">
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img2.jpg" alt="image 1"></div>
+            <figcaption>
+              <h1>Post1</h1>
+              <small>details</small>
+              <a href="#">Read More</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img2.jpg" alt="image 2"></div>
+            <figcaption>
+              <h1>Post2</h1>
+              <small>Details.</small>
+              <a href="#">Read more</a>
+            </figcaption>
+          </figure>
+        </li>
+
+     <!--   <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img3.jpg" alt="image 3"></div>
+            <figcaption>
+              <h1>Cras ante sem</h1>
+              <small>Aenean urna massa, convallis vehicula velit et, dictum pellentesque nisi.</small>
+              <a href="#">Learn More</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img4.jpg" alt="image 4"></div>
+            <figcaption>
+              <h1>Sed ornare</h1>
+              <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+              <a href="#">Full Post</a>
+            </figcaption>
+          </figure>
+        </li>  -->
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact section -->
+
+<section id="contact">
+  <div class="container">
+    <div class="row">
+
+       <div class="col-md-offset-1 col-md-10 col-sm-12">
+
+        <div class="col-lg-offset-1 col-lg-10 section-title wow fadeInUp" data-wow-delay="0.4s">
+          <h1>Send a message</h1>
+          <p>You can contact me here </p>
+        </div>
+
+        <form action="#" method="post" class="wow fadeInUp" data-wow-delay="0.8s">
+          <div class="col-md-6 col-sm-6">
+            <input name="name" type="text" class="form-control" id="name" placeholder="Name">
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <input name="email" type="email" class="form-control" id="email" placeholder="Email">
+          </div>
+          <div class="col-md-12 col-sm-12">
+            <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+          </div>
+          <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
+            <input type="submit" class="form-control" value="SEND MESSAGE">
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer section -->
+
+<footer>
+	<div class="container">
+    
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+      <h1><a href=""> <b>Let's get in touch here</b></a></h1>
+            
+                <ul class="social-icon"> 
+                    <li><a target="blank" href="https://github.com/fellowhacker" class="fa fa-github wow fadeInUp" data-wow-delay="0.2s"></a></li>
+                    <li><a target="blank" href="https://www.linkedin.com/in/naveen-manikanta-kodigudla-8992ab143/" class="fa fa-linkedin wow fadeInUp" data-wow-delay="0.5s"></a></li>                  
+                    <li><a href="#" class="fa fa-instagram wow fadeInUp" data-wow-delay="0.2s"></a></li>
+                    <li><a target="blank" href="https://twitter.com/fellow_hacker" class="fa fa-twitter wow fadeInUp" data-wow-delay="0.5s"></a></li>
+                    <li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="0.2s"></a></li>
+                    <li><a href="#" class="fa fa-google-plus wow fadeInUp" data-wow-delay="0.6s"></a></li>
+                </ul>
+
+				<p class="wow fadeInUp"  data-wow-delay="1s" >Copyright &copy; 2017 <a href="https://github.com/fellowhacker"> Naveen Manikanta Kodigudla</a></p>
+                
 			</div>
-			<div class="home-projects">
-				<div class="row">
-					<div class="col-md-6 col-sm-12">
-						<div class="project-title animated fadeInUp">
-							<h2>Latest Projects</h2>
-							<p>Here is the list of some of my projects. </p>
-							<a href="#" class="pink-button show-3 projectbutton">Watch more here</a>
-						</div>
-					</div>
-					<div class="project-home-holder col-md-6 col-sm-12">
-						<div class="row">
-							<div class="col-md-6 col-sm-6">
-								<div class="project-item one animated fadeInRight">
-									<img src="img/1.jpg" alt="">
-									<div class="overlay">
-										<h4><a href="#">Project One</a></h4>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-6">
-								<div class="project-item two animated fadeInRight">
-									<img src="img/2.jpg" alt="">
-									<div class="overlay">
-										<h4><a href="#">Project Two</a></h4>
-									</div>
-								</div>
-							</div>
-						<!--	<div class="col-md-6 col-sm-6">
-								<div class="project-item three animated fadeInRight">
-									<img src="img/3.jpg" alt="">
-									<div class="overlay">
-										<h4><a href="#">Project Three</a></h4>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-6">
-								<div class="project-item four animated fadeInRight">
-									<img src="img/4.jpg" alt="">
-									<div class="overlay">
-										<h4><a href="#">Project Four</a></h4>
-									</div>
-								</div>
-							</div>-->
-						</div>
-					</div>
-				</div>
-			</div>
+			
 		</div>
-
-		<div id="menu-2" class="content about-section container">
-			<div class="our-story">
-				 
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-						<div class="inner-story animated fadeInRight text-center">
-							<h2 class="blue">ABOUT ME</h2>
-							<p> Hyy I'm <span class="blue"> Naveen Manikanta Kodigudla </span>an open source enthusiast from Visakhapatnam, India. I have a passion for web design and love to create for web and mobile devices.I enjoy contributing to open source and explore new algorithms. I love playing Volleyball, travelling and reading novels(CRIME FICTION).</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="our-offers">
-				<!--<div class="offer-bg animated fadeIn"></div>
-				<div class="offer-header">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 text-center">
-							<div class="offer-title animated fadeInDown">
-								<h2>OTHERS</h2>
-							</div>
-						</div>
-					</div>
-				</div>-->
-				<div class="row">
-					<div class="offer-holder">
-						<div class="col-md-6">
-							<div class="offer-item offer-1 animated fadeInLeft">
-								<div class="offer-content text-center">
-									<h4 class="blue">EDUCATION</h4>	
-									<p>I'm doing my B.Tech 2nd year in Electronics And Communication Engineering at <span class="blue"> IIIT,ALLAHABAD. </span>I have completed my 10th at Little Flowers E.M High School securing CGPA of 9.5/10 and 97.20% in my Intermediate at Narayana Junior College.</p>								 
-									<span class="offer-left"><i></i></span>
-									<span class="offer-right"><i></i></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="offer-item offer-2 animated fadeInRight">
-								<div class="offer-content text-center">
-									<h4 class="blue">SKILLS</h4>
-									<div class="skillbar clearfix " data-percent="90%">
-										<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
-										<div class="skillbar-bar" style="background: #e67e22;"></div>
-										<div class="skill-bar-percent">90%</div>
-									</div> <!-- End Skill Bar -->
-
-									<div class="skillbar clearfix " data-percent="85%">
-										<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
-										<div class="skillbar-bar" style="background: #3498db;"></div>
-										<div class="skill-bar-percent"><b>85%</b></div>
-									</div> <!-- End Skill Bar -->
-
-									<div class="skillbar clearfix " data-percent="80%">
-										<div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
-										<div class="skillbar-bar" style="background: #2c3e50;"></div>
-										<div class="skill-bar-percent"><b>80%</b></div>
-									</div> <!-- End Skill Bar -->
-
-									<div class="skillbar clearfix " data-percent="70%">
-										<div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
-										<div class="skillbar-bar" style="background: #5a68a5;"></div>
-										<div class="skill-bar-percent">70%</div>
-									</div> <!-- End Skill Bar -->
-
-									<div class="skillbar clearfix " data-percent="75%">
-										<div class="skillbar-title" style="background: #333333;"><span>Javasript</span></div>
-										<div class="skillbar-bar" style="background: #525252;"></div>
-										<div class="skill-bar-percent">75%</div>
-									</div> <!-- End Skill Bar -->
-
-									<div class="skillbar clearfix " data-percent="60%">
-										<div class="skillbar-title" style="background: #27ae60;"><span>NodeJs</span></div>
-										<div class="skillbar-bar" style="background: #2ecc71;"></div>
-										<div class="skill-bar-percent"><b>60%</b></div>
-									</div> <!-- End Skill Bar -->
-
-									<div class="skillbar clearfix " data-percent="70%">
-										<div class="skillbar-title" style="background: #124e8c;"><span>Photoshop</span></div>
-										<div class="skillbar-bar" style="background: #4288d0;"></div>
-										<div class="skill-bar-percent">70%</div>
-									</div> <!-- End Skill Bar -->
-
-									<span class="offer-left"><i></i></span>
-									<span class="offer-right"><i></i></span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="menu-3" class="content project-section container">
-			<div class="projects-header">
-				<h2 class="animated fadeInRight">My projects</h2>
-				<p class="animated fadeInLeft">Here is the list of my projects.</p>
-			</div>
-			<div class="row blog-posts">
-				<div class="col-md-4 col-sm-12">
-					<div class="blog-item post-1 animated zoomIn">
-						<div class="blog-bg blog-pink"></div>
-						<div class="blog-content">
-							<h3><a href="#"><span class="blue"> Project1 </span></a></h3>
-							<span class="solid-line"></span>
-							<p>open source</p>
-							<a href="#" class="post-button">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-12">
-					<div class="blog-item post-2 animated zoomIn">
-						<div class="blog-bg blog-blue"></div>
-						<div class="blog-content">
-							<h3><a href=""><span class="blue"> Project2 </span></a></h3>
-							<span class="solid-line"></span>
-							<p>get yourself creative</p>
-							<a href="#" class="post-button">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-12">
-					<div class="blog-item post-3 animated zoomIn">
-						<div class="blog-bg blog-green"></div>
-						<div class="blog-content">
-							<h3><a href="#"><span class="blue"> Project3 </span></a></h3>
-							<span class="solid-line"></span>
-							<p>open source.</p>
-							<a href="#" class="post-button">Read More</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--<div class="projects-holder">
-				<div class="row">
-					<div class="col-md-4 col-sm-6 p-1 animated umScaleIn">
-						<div class="project-item">
-							<img src="img/1.jpg" alt="">
-							<div class="overlay">
-								<h4><a href="#">Project One</a></h4>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 p-2 animated umScaleIn">
-						<div class="project-item">
-							<img src="img/2.jpg" alt="">
-							<div class="overlay">
-								<h4><a href="#">Project Two</a></h4>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 p-3 animated umScaleIn">
-						<div class="project-item">
-							<img src="img/3.jpg" alt="">
-							<div class="overlay">
-								<h4><a href="#">Project Three</a></h4>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-3 col-sm-6 p-4 animated umScaleIn">
-						<div class="project-item animated umScaleIn">
-							<img src="img/4.jpg" alt="">
-							<div class="overlay">
-								<h4><a href="#">Project Four</a></h4>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="project-item p-5 animated umScaleIn">
-							<img src="img/5.jpg" alt="">
-							<div class="overlay">
-								<h4><a href="#">Project Five</a></h4>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="project-item p-6 animated umScaleIn">
-							<img src="img/6.jpg" alt="">
-							<div class="overlay">
-								<h4><a href="#">Project Six</a></h4>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="project-item p-7 animated umScaleIn">
-							<img src="img/7.jpg" alt="">
-							<div class="overlay">
-								<h4><a href="#">Project Seven</a></h4>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>  -->
-		</div>
-
-		<div id="menu-4" class="content blog-section container">
-			<div class="blog-header text-center">
-				<h2 class="animated fadeInRight">Blog </h2>
-				<p class="animated fadeInLeft"> Its my blog</p>
-				<a href="#" class="blog-button animated fadeInUp">continue journal</a>
-			</div>
-			<div class="row blog-posts">
-				<div class="col-md-4 col-sm-12">
-					<div class="blog-item post-1 animated zoomIn">
-						<div class="blog-bg blog-pink"></div>
-						<div class="blog-content">
-							<h3><a href="#"><span class="blue"> Open Source </span></a></h3>
-							<span class="solid-line"></span>
-							<p>open source</p>
-							<a href="#" class="post-button">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-12">
-					<div class="blog-item post-1 animated zoomIn">
-						<div class="blog-bg blog-pink"></div>
-						<div class="blog-content">
-							<h3><a href="#"><span class="blue"> Open Source </span></a></h3>
-							<span class="solid-line"></span>
-							<p>open source</p>
-							<a href="#" class="post-button">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-12">
-					<div class="blog-item post-1 animated zoomIn">
-						<div class="blog-bg blog-pink"></div>
-						<div class="blog-content">
-							<h3><a href="#"><span class="blue"> Open Source </span></a></h3>
-							<span class="solid-line"></span>
-							<p>open source</p>
-							<a href="#" class="post-button">Read More</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="menu-5" class="content contact-section container">
-			<div class="contact-header text-center">
-				<h2 class="animated fadeInLeft">Let's Get in Touch</h2>
-				<p class="animated fadeInRight">Feel free to talk to me about anything.</p>
-				<ul class="contact-social animated fadeInUp">
-					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="#"><i class="fa fa-share-alt"></i></a></li>
-				</ul>
-			</div>
-			<div class="contact-holder">
-				<div class="row">
-					<div class="col-md-6 col-sm-12">
-			            <div class="googlemap-wrapper animated fadeInLeft">
-                            <div id="map_canvas" class="map-canvas"></div>
-                        </div>
-					</div>
-					<div class="col-md-6 col-sm-12">
-						<div class="contact-form animated fadeInUp">
-							<h4>Send Me a Message</h4>
-							<div class="row">
-								<fieldset class="col-md-6">
-									<input type="text" name="name" placeholder="Your name">
-								</fieldset>
-								<fieldset class="col-md-12">
-									<input type="text" name="subject" placeholder="Subject">
-								</fieldset>
-								<fieldset class="col-md-12">
-									<textarea name="message" id="message" cols="30" rows="10" placeholder=""></textarea>
-								</fieldset>
-								<fieldset class="col-md-12">
-									<a href="#" class="message-button">Submit Message</a>
-								</fieldset>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+        
 	</div>
+</footer>
+
+<!-- Back top -->
+<a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+<!-- Javascript  -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/vegas.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/toucheffects.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+<script type="text/javascript">
+  
+  jQuery(document).ready(function(){
+  jQuery('.skillbar').each(function(){
+    jQuery(this).find('.skillbar-bar').animate({
+      width:jQuery(this).attr('data-percent')
+    },1000);
+  });
+});
+
+</script>
 
 
-	<footer class="site-footer container text-center">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="main-footer">
-					<ul class="social">
-						<li><a href="https://github.com/fellowhacker" target="blank"><i class="fa fa-github circle" style="font-size:24px"></i></a></li>
-						<li><a href="https://www.quora.com/profile/NAVEEN-MANIKANTA-KODIGUDLA-1" target="blank"><i class="fa fa-quora" style="font-size:24px"></i></a></li>
-						<li><a href="https://stackoverflow.com/users/7447224/fellowhacker" target="blank"><i class="fa fa-stack-overflow circle" style="font-size:24px"></i></a></li>
-						<li><a href="https://www.facebook.com/naveenmanikanta.kodigudla" target="blank"><i class="fa fa-facebook circle" style="font-size:24px"></i></a></li>
-						<li><a href="https://twitter.com/fellow_hacker" target="blank"><i class="fa fa-twitter circle" style="font-size:24px"></i></a></li>
-						<li><a href="https://www.instagram.com/nawin6637/" target="blank"><i class="fa fa-instagram circle" style="font-size:24px"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 copyright">
-				<p>Developed by <a href="https://github.com/fellowhacker" class="blue">Naveen Manikanta Kodigudla</a></p>
-			</div>
-		</div>
-	</footer>
-	<!-- templatemo 421 raleway -->
-	<span class="border-top"></span>
-	<span class="border-left"></span>
-	<span class="border-right"></span>
-	<span class="border-bottom"></span>
-	<span class="shape-1"></span>
-	<span class="shape-2"></span>
-
-	<script src="js/jquery.min.js"></script>
-	<script src="js/templatemo_custom.js"></script>
 </body>
 </html>
