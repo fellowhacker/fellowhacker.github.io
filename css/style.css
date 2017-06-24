@@ -750,3 +750,30 @@ width:110px;
   }
 
 }
+
+@media screen and (max-width: 540px) and (min-width: 480px) {
+ 
+  .posp {
+   font-size: 100%;
+    
+  }
+
+}
+
+@media screen and (max-width: 479px) and (min-width: 445px) {
+ 
+  .posp {
+   font-size: 85%;
+    
+  }
+
+}
+
+@media screen and (max-width: 445px) {
+ 
+  .posp {
+   visibility: hidden;
+    
+  }
+
+}

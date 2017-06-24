@@ -96,7 +96,7 @@
           <h1>Education</h1>
             <p>I'm doing my B.Tech 2nd year in Electronics And Communication Engineering at <span class="blue"> IIIT,ALLAHABAD. I love playing Volleyball, travelling and reading novels(CRIME FICTION).</p>
           <h1>Skills</h1>
-                  <div class="skillbar clearfix " data-percent="90%">
+            <div class="skillbar clearfix " data-percent="90%">
                     <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
                     <div class="skillbar-bar" style="background: #e67e22;"></div>
                     <div class="skill-bar-percent">90%</div>
@@ -153,11 +153,25 @@
           <div class="section-title text-center">
             <h1>My Projects</h1>
             <h3>List of projects</h3>
+            <p>Click/Hover below to get full details.</p>
           </div>
         </div>
 
         <!-- team carousel -->
         <div class="row">
+
+            <div class="prow">
+                <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="team-thumb">
+                    <div class="image-holder">
+                      <img src="images/you.png" class="" width="150px" height="150px">
+                    </div>
+                    <h2 class="heading">Youtube Search</h2>
+                    <p class="description">This uses YouTube Data API v3's search functionality to search for youtube videos.<br><button style="border: none;color:black;background-color: white;padding:5px 40px;" id="pro2but">More</button></p>
+                  </div>
+                </div>
+            </div>
+
             <div class="prow">
                 <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s" >
                   <div class="team-thumb">
@@ -171,23 +185,11 @@
                 </div>
             </div>
 
-            <div class="prow">
-                <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-                  <div class="team-thumb">
-                    <div class="image-holder">
-                      <img src="images/you.png" class="" width="150px" height="150px">
-                    </div>
-                    <h2 class="heading">Youtube Search</h2>
-                    <p class="description">This uses YouTube Data API v3's search functionality to search for youtube videos.<br><button style="border: none;color:black;background-color: white;padding:5px 40px;" id="pro2but">More</button></p>
-                  </div>
-                </div>
-          </div>
+            
 
-       
-</div>
+      </div>
          
         <!-- end team carousel -->
-
 </div>
     </div>
   </div>
@@ -212,9 +214,10 @@
           <figure>
             <div><img src="images/gallery-img2.jpg" alt="image 1"></div>
             <figcaption>
-              <h1>Post1</h1>
-              <small>details</small>
-              <a href="#">Read More</a>
+              <h1>Open Source</h1>
+              <small>Mar 18, 2017</small>
+              <h4 class="posp" style="color: white">The term "open source" refers to something people can modify and share because its design is publicly accessible.<br></h4>
+              <button id="blog1but"><a>Learn More</a></button>
             </figcaption>
           </figure>
         </li>
@@ -223,13 +226,35 @@
           <figure>
             <div><img src="images/gallery-img2.jpg" alt="image 2"></div>
             <figcaption>
-              <h1>Post2</h1>
-              <small>Details.</small>
-              <a href="#">Read more</a>
+              <h1>Responsive Web Design</h1>
+              <small>Mar 30, 2017</small>
+              <h4 style="color:white" class="posp">Responsive web design (RWD) is an approach to web design aimed at allowing desktop webpages to be viewed in response to the size of the screen or web browser one is viewing with.</h4>
+              <button id="blog2but"><a>Learn More</a></button>
             </figcaption>
           </figure>
         </li>
- 
+
+     <!--   <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img3.jpg" alt="image 3"></div>
+            <figcaption>
+              <h1>Cras ante sem</h1>
+              <small>Aenean urna massa, convallis vehicula velit et, dictum pellentesque nisi.</small>
+              <a href="#">Learn More</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img4.jpg" alt="image 4"></div>
+            <figcaption>
+              <h1>Sed ornare</h1>
+              <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+              <a href="#">Full Post</a>
+            </figcaption>
+          </figure>
+        </li>  -->
       </ul>
 
     </div>
@@ -242,7 +267,7 @@
         <div class="modal-dialog">
         
           <!-- Modal content-->
-          <div class="modal-content">
+          <div class="modal-content" style="padding: 15px;">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
               <h4 class="modal-title text-center" style="color: red;"><b>MY PERSONAL WEBSITE</b></h4>
@@ -256,22 +281,22 @@
 
               </div>
               <h3><b>Languages used:</b></h3>
-              <p>Javascript, Jquery, Bootstrap, CSS, HTML.</p>
+              <p style="color:tomato">Javascript, Jquery, Bootstrap, CSS, HTML.</p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
             </div>
           </div>
           
         </div>
-      </div>
+    </div>
 
 
       <div class="modal fade" id="myModalpro2" role="dialog" style="margin-top: 40px;">
         <div class="modal-dialog">
         
           <!-- Modal content-->
-          <div class="modal-content">
+          <div class="modal-content" style="padding: 15px;">
             <div class="modal-header">
 
               <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -305,15 +330,99 @@
               </p>
               <p>You can also filter the results .</p>
               <h3><b>Languages used:</b></h3>
-              <p>Javascript, Jquery, Bootstrap, CSS, HTML.</p>
+              <p style="color: tomato">Javascript, Jquery, Bootstrap, CSS, HTML.</p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
             </div>
           </div>
           
         </div>
       </div>
+
+
+      <div class="modal fade" id="myModalblog1" role="dialog" style="margin-top: 40px;">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content" style="padding: 15px;">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center" style="color: tomato;"><b>OPEN SOURCE</b></h4>
+            </div>
+            <div class="modal-body"><br>
+              <img src="images/pro1img.png" class="img-responsive"><br>
+              <p>
+                
+                The term "open source" refers to something people can modify and share because its design is publicly accessible.<br>
+
+        <b>I believe in the fact that reading few lines of code is more worth than read 500 pages of a book</b>. When you follow code written by great programmers you automatically tend to pickup some great practices while coding.
+
+        For beginners the first question that comes into mind is from where I have to start?<br><br>
+
+        <b>How do I get started?</b><br>
+        The first and the foremost thing is choose a programming language of your choice. Once you are done with selecting a programming language, search for a project you might be interested.<br>
+        There are lot of websites like <a href="https://github.com/" target="blank">Github</a>, <a href="https://openhatch.org/" target="blank">Openhatch</a> available for beginners.<br><br>
+
+        <b>What's the difference between open source software and other types of software?</b><br>
+
+        Some software has source code that only the person, team, or organization who created it—and maintains exclusive control over it—can modify. People call this kind of software "proprietary" or "closed source" software.Only the original authors of proprietary software can legally copy, inspect, and alter that software.Eg:Microsoft Office and Adobe Photoshop<br>
+
+        Open source software is different. Its authors make its source code available to others who would like to view that code, copy it, learn from it, alter it, or share it. Eg:LibreOffice and the GNU Image Manipulation Program .<br><br>
+
+        Before contributing to open source first make sure you learn some version control system I'll suggest you to learn <a href="https://www.codeschool.com/learn/git/?searchsegment=ppcnonbrand&aid=701j0000002BMesAAG&promo=&oid=&utm_source=google&utm_medium=paidsearch&utm_campaign=CS_Git-google&utm_content=&utm_term=&gclid=CIevjdTY_dICFdGGaAod9UoBAw">  Git </a>. Read famous blogs about Git and open source<br>  
+        I suggest you to read this one <a href="http://loudprogrammer.net/7-tips-for-contributing-to-open-source-projects-on-github-for-beginners/?utm_source=quora&utm_medium=answer" target="blank">Tips for contributing to open source projects on github for beginners.</a><br><br>
+
+
+        An easy way to get started is through open source programs. Here are a couple that I know of:<br>
+        <a href="https://summerofcode.withgoogle.com/" target="blank"> Google Summer of Code </a><br>
+        <a href="https://wiki.gnome.org/action/show/Outreachy?action=show&redirect=OutreachProgramForWomen" target="blank">   OutreachProgramForWomen - GNOME Wiki! </a><br>
+        <a href="https://railsgirlssummerofcode.org/" target="blank">Rails Girls Summer of Code </a><br>
+          You are assigned mentors and coaches who will make sure that you get up to speed with the open source world. Not only that, it is a rare opportunity to get paid while you contribute to an open source project. <br><br>
+
+        <b>If you have any questions regarding open source you can refer this <a href="https://opensource.com/resources" target="_BLANK">FAQ's regarding opensource.</a> 
+
+
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal" style="margin-top: 0px;">Close</button>
+            </div>
+          </div>
+          
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="myModalblog2" role="dialog" style="margin-top: 40px;">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content" style="padding: 15px;">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center" style="color: tomato;"><b>RESPONSIVE WEB DEISGN</b></h4>
+            </div>
+            <div class="modal-body"><br>
+              <img src="images/pro1img.png" class="img-responsive"><br>
+              <p>
+                
+                Responsive web design (RWD) is an approach to web design aimed at allowing desktop webpages to be viewed in response to the size of the screen or web browser one is viewing with. In addition it's important to understand that Responsive Web Design tasks include offering the same support to a variety of devices for a single website.<br>Responsive design is about more than just layout; it’s about designing for the Web, which means, mostly, for people with browsers. And that’s just about everything we know about the people who visit our websites: they are probably using a browser. All the rest we just don’t know. <br><br>
+                Up until not so long ago, we used to base our designs on some rather general assumptions about screen size and input type. With the rise of devices with various screen sizes and alternative ways to interact, these assumptions have turned out to be unreliable. We need to upgrade the defaults that we use when we start designing our websites. <br><br><b>Bad Design:</b><br>
+                The way we designed our websites until recently was by putting a header with the logo and navigation at the top, putting the subnavigation on the left, putting some widgets on the right, and putting the footer at the bottom. When all of that was done, we’d cram the content into the little space that was left in the middle. All of the things we created first — the navigation, the widgets, the footer — they all helped the visitor to leave the page. But the visitor probably wanted to be there! That was weird. It was as if we were not so confident in our own content and tried our best to come up with something else that our guests might like.
+                But rather than pollute the page with all kinds of links to get people out of there, we should really focus on that thing in the middle. Make sure it works. Make sure it looks good. Make sure it’s readable. Make sure people will understand it and find it useful.
+
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal" style="margin-top: 0px;">Close</button>
+            </div>
+          </div>
+          
+        </div>
+    </div>
+
+
   
 
 <!-- Contact section -->
@@ -412,6 +521,18 @@
   $('#pro2but').click( function() {
 
     $('#myModalpro2').modal('show');
+
+  });
+
+  $('#blog1but').click( function() {
+
+    $('#myModalblog1').modal('show');
+
+  });
+
+  $('#blog2but').click( function() {
+
+    $('#myModalblog2').modal('show');
 
   });
 
