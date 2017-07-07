@@ -1,0 +1,173 @@
+
+.circleLoader{
+  width:100px;
+  height:80px;
+  margin:20px auto;
+  position:relative;
+}
+
+.circleLoader:before,
+.circleLoader:after{
+  content:" ";
+  border-radius: 50%;
+  border: solid 3px #fff;
+  position:absolute;
+  width:20px;
+  height:20px;
+  top: 24px;
+  left: 24px;
+  opacity:0;
+}
+
+.circleLoader:before,
+.circleLoader:after{
+  -webkit-animation: expand 3s; /* Chrome, Safari, Opera */
+  animation: expand 3s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+.circleLoader:after{
+  -webkit-animation-delay: 1.5s;
+}
+
+
+/* Standard syntax */
+@keyframes expand
+{
+ 0% {
+  width:2px;
+  height:2px;
+  top: 24px;
+  left: 24px;
+  opacity:0;
+ }
+ 20%{
+  opacity:1;
+ }
+ 100% {
+  width:50px;
+  height:50px;
+  top:0;
+  left:0;
+  opacity: 0.2;
+ }
+}
+
+body {
+
+	background-color: snow;
+
+}
+ #submit {
+
+    border: 0;
+    width: 2px;
+    cursor: pointer;
+    zoom: 1;
+    opacity: 0.65;
+    visibility: hidden;
+
+}
+
+.search-field {
+
+	width: 98%;
+	padding: 8px;
+	height: 45px;
+	margin: 0 auto;
+	border: none;
+	border-radius: 10px;
+	border: 1px solid grey;
+
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:   grey;
+    margin-left: 40%;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #909;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #909;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #909;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #909;
+}
+
+
+#disp_res li {
+
+    padding: 10px 0;
+    border-bottom: 1px dotted #ccc;
+    list-style: none;
+    overflow: auto;
+
+}
+
+.img {
+
+    float: left;
+    width: 20%;
+
+}
+
+.img img {
+
+    width: 100%;
+    border: 1px solid #ccc;
+
+}
+
+.mat {
+
+    float: right;
+    width: 78%;
+
+}
+
+.mat h4 {
+
+	margin-bottom: 0px;
+
+}
+ 
+.button-container {
+    margin-top: 25px;
+    
+}
+ 
+#sel1 {
+
+	width: 105px;
+}
+
+#butrep {
+
+  padding: 12px 25px;
+  background-color: #304352;
+  color: white;
+  box-shadow: 0 0 20px grey;
+
+}
+
+  
+ @media screen and (max-width: 350px) {
+  .fol {
+    font-size: 80%;
+  }
+ }
+
+ .repoinfo {
+  box-shadow: 0 0 15px grey;
+ }
